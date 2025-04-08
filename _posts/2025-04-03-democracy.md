@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is the World Becoming Less Democratic?
+title: The State of Democracy
 ---
 
 Throughout history, there have been several attempts to measure the quality of democracy around the globe. The Economist Group -- a British media company and publisher of *The Economist* newspaper -- publishes its own metric, the Economist Democracy Index, which aims to describe the state of democracy in a given country on a scale from 0 to 10, with lower values associated with authoritarian regimes and higher values with well-developed democracies.
@@ -14,7 +14,7 @@ The Economist Democracy Index is constructed from sixty indicators across five c
 
 As of today, the available data consists of the yearly democracy index of 167 countries, from 2006 to 2024 (except for 2007 and 2009). These countries are grouped into seven geographical regions: Asia and Australasia, Eastern Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, Sub-Saharan Africa, North America, and Western Europe.
 
-## The Case of Countries
+## The Case for Countries
 
 The figure below shows the evolution of the democracy index for several countries: Norway (the country with the highest democracy index in 2024), Afghanistan (the country with the lowest index), Bhutan (the country with the greatest increase since 2006), Mali and Nicaragua (the two countries with the greatest decrease), and Argentina (my own country).
 
@@ -89,8 +89,6 @@ As with any metric that attempts to describe the political, economic, or histori
 As mentioned earlier, the Economist Group is not the only institution measuring democratic quality. Other metrics include the V-Dem Democracy Indices and the Bertelsmann Transformation Index. Additional indices -- such as the Democracy Perception Index, the Fragile States Index, or the effective number of parties -- assess specific aspects of democracy.
 
 While this post provides a broad and simplified overview of democracy’s trajectory using the Economist Democracy Index, it ultimately leads to a deeper question: Can the global decline be reversed, or are we witnessing a long-term shift toward authoritarianism?
-
-<div class="divider"></div>
 
 <div class="note-box">
     The analysis in this blog post is entirely independent of The Economist Group, except for utilizing publicly available data from <a href="https://en.wikipedia.org/wiki/The_Economist_Democracy_Index" target="_blank" rel="noopener noreferrer">Wikipedia</a>. Both the datasets and the Python scripts used to generate the figures are available in the associated <a href="https://github.com/ffiza/economist-democracy-index" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Geographical data was obtained from <a href="https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-boundary-lines/" target="_blank" rel="noopener noreferrer">Natural Earth</a>.
