@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     {% seo title=false %}
     {% include meta.html %}
 
@@ -10,22 +10,22 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta name="theme-color" content="#000000">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
-    {% include analytics_head.html %}
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png"> -->
+    <!-- {% include analytics_head.html %} -->
   </head>
 
   <body>
-    <div id="bar"></div>
+    <!-- <div id="bar"></div> -->
     <div class="wrapper-container">
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a> -->
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
 
-            <!-- <div class="site-info">
+            <div class="site-info">
               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
               <p class="site-description">{{ site.description }}</p> 
-            </div> -->
+            </div>
 
             <nav>
               <a href="{{ site.baseurl }}/">Home</a>
@@ -53,6 +53,6 @@
       </div>
     </div>
 
-    {% include analytics.html %}
+    <!-- {% include analytics.html %} -->
   </body>
 </html>
