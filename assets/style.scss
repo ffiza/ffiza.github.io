@@ -264,6 +264,11 @@ p > img {
 // .masthead
 //
 
+nav img {
+    vertical-align: middle;
+    display: inline-block;
+  }
+
 .wrapper-masthead {
   margin-bottom: 25px;
 }
@@ -360,9 +365,35 @@ nav {
   }
 }
 
-//
-// .main
-//
+.home-icon img {
+    content: url('../icons/icons8-home-page.png');
+    transition: 0.5s ease-in-out;
+  }
+  
+.home-icon:hover img {
+    content: url('../icons/icons8-home-page-hover.png');
+    transition: 0.5s ease-in-out;
+}
+
+.about-icon img {
+    content: url('../icons/icons8-info-squared.png');
+    transition: 0.5s ease-in-out;
+  }
+  
+.about-icon:hover img {
+    content: url('../icons/icons8-info-squared-hover.png');
+    transition: 0.5s ease-in-out;
+}
+
+.archive-icon img {
+    content: url('../icons/icons8-folder.png');
+    transition: 0.5s ease-in-out;
+  }
+  
+.archive-icon:hover img {
+    content: url('../icons/icons8-folder-hover.png');
+    transition: 0.5s ease-in-out;
+}
 
 .posts > .post {
   padding-bottom: 2em;
