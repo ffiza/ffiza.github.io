@@ -1,1 +1,1 @@
-A repostory that hosts a personal blog on data projects.
+A repository to host a personal GitHub Pages website. 
