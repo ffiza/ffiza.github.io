@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dungeons & Dragons Monsters
+title: Dungeons & Monsters
 ---
 
 [*Dungeons & Dragons*](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) is a tabletop role-playing game that has grown in popularity in recent years. In this fantasy world, heroic adventurers face off against a wide variety of monsters.
