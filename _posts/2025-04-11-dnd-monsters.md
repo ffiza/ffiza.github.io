@@ -46,5 +46,5 @@ The chart below shows the average alignment of each monster type. Most types ten
 </div>
 
 <div class="note-box">
-    The dataset and Python scripts used to generate these visualizations are available in the associated <a href="https://github.com/ffiza/dnd-monsters" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
+    The dataset(s) and Python script(s) used to generate all the visualizations in this post are available on <a href="https://github.com/ffiza/dnd-monsters" target="_blank" rel="noopener noreferrer">GitHub</a>.
 </div>
