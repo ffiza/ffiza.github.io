@@ -1195,9 +1195,17 @@ Modules - reusable parts of our design
 .note-box {
     font-size: 0.875rem;
     font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #404040;
-    background-color: #f9f9f9;
+    color: #1a3a4a;
+    background-color: #e6f4f9;
+    border-left: 4px solid #2b9fcc;
     padding: 10px 15px;
     margin-top: 30px;
     border-radius: 5px;
-  }
+
+    .info-icon
+    {
+        margin-right: 12px;
+        font-size: 20px;
+    }
+}
+  
